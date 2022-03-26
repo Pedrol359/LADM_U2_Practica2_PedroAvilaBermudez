@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#292828"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imagenCarta"
+        android:layout_width="250dp"
+        android:layout_height="405dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/carta1" />
+
+    <TextView
+        android:id="@+id/contador"
+        android:layout_width="250dp"
+        android:layout_height="405dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:paddingTop="150dp"
+        android:fontFamily="serif"
+        android:text="Go"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:background="#292828"
+        android:textSize="90dp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/iniciar"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/imagenCarta"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="108dp"
+        android:text="Iniciar"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/loteria"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/imagenCarta"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="40dp"
+        android:text="loteria"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/mostrarRestoCartas"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/imagenCarta"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="40dp"
+        android:text="Mostrar las demas cartas"
+        android:visibility="invisible" />
+    <Button
+        android:id="@+id/pausar"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/imagenCarta"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="110dp"
+        android:text="pausar"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/reiniciar"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/imagenCarta"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="180dp"
+        android:text="reiniciar"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/siguiente"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/imagenCarta"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="40dp"
+        android:text="siguiente carta"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/anterior"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/imagenCarta"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="110dp"
+        android:text="carta anterior"
+        android:visibility="invisible" />
+
+
+
+
+
+
+</RelativeLayout>
